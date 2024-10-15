@@ -1,0 +1,78 @@
+body{
+    background: url(./Light-color-modern-vector-background.jpg);
+    background-size: cover;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+box-sizing: border-box;
+border: 1px solid black;
+padding: 10px;
+margin: 20%;
+margin-left: 25%;
+background: blanchedalmond;
+border-radius: 8px;
+width: 50%;
+height: 40%;
+
+}
+
+.container form input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+    width: 200px;
+    margin-left: 20%;
+    
+}
+
+.container form button{
+    margin: 10px;
+    margin-left: 35%;
+    width: 35%;
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    padding: 10px;
+    background: rgb(202, 229, 162);
+   
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: rgb(199, 233, 238);
+    width: 40em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    margin-right: 35px;
+    
+}
+
+li span {
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.completed span{
+    text-decoration: line-through;
+}
+
+li button{
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    transition: ease-in-out 0.1s;
+}
+
